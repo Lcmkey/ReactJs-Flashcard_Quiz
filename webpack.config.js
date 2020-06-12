@@ -15,7 +15,7 @@ const path = require("path");
 // const smp = new SpeedMeasurePlugin();
 
 module.exports = {
-  devtool: "source-map", //dev: "source-map" / production: false / cheap-module-eval-source-map
+  devtool: false, //dev: "source-map" / production: false / cheap-module-eval-source-map
   mode: "development", // development || production
   entry: "./src/index.js",
   stats: "errors-only",
